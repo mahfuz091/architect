@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    
+}
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav{
+    padding: 50px 230px;
+}
+.nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
