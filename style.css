@@ -8,20 +8,28 @@ body{
 }
 .wrapper {
     margin: 0 auto;
-    max-width: 1920px;
+    max-width: 1450px;
     width: 100%;
     
 }
 .header {
     background: rgba(255, 144, 14, 0.1);
+    background-position: cover;
 }
 .nav{
     padding: 50px 230px;
+
 }
 .nav .wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.nav-logo{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
 }
 .nav-menu ul {
     display: flex;
@@ -34,4 +42,30 @@ body{
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+}
+.hero-area .wrapper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+.hero-img{
+    width: 1440px;
+    height: 700px;
+    padding: 50px 240px ;
+}
+.quick-feature{
+    padding: 85px 300px;
+}
+.quick-feature .wrapper{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.quick-feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
 }
