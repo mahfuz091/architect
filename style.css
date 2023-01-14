@@ -20,7 +20,7 @@ body{
     padding: 50px 230px;
 
 }
-.nav .wrapper{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,15 +43,14 @@ body{
     font-size: 18px;
     color: #424242;
 }
-.hero-area .wrapper{
+.hero-area{
     display: flex;
     /* align-items: center; */
     justify-content: center;
     text-align: center;
 }
 .hero-img{
-    width: 1440px;
-    height: 700px;
+   
     padding: 50px 240px ;
 }
 .quick-feature{
