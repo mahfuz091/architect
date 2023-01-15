@@ -27,6 +27,7 @@ body {
     color: #FFFFFF;
     padding: 21px 25px;
 }
+/* Header Section */
 
 .header,
 .hero-area {
@@ -65,12 +66,10 @@ body {
     font-size: 18px;
     color: #424242;
 }
+/* Hero section */
 
 .hero-area {
-    /* display: flex;
-    /* align-items: center; */
-    /* justify-content: center;
-    */
+    
     text-align: center;
     padding-bottom: 45px;
 }
@@ -240,6 +239,7 @@ body {
     color: #FFFFFF;
 }
 
+/* Fact section */
 
 .facts-boxes {
     display: grid;
@@ -260,7 +260,7 @@ body {
 .facts-details {
     font-weight: 400;
     font-size: 16px;
-    -height: 26px;
+    line-height: 26px;
     color: #727272;
     padding-bottom: 100px;
 }
@@ -279,6 +279,8 @@ body {
     line-height: 53px;
     text-align: center;
     color: #424242;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .facts-contant-title {
@@ -355,6 +357,7 @@ body {
 
 
 /* Sponsor Section  */
+
 .sponsor-title {
     font-weight: 700;
     font-size: 45px;
