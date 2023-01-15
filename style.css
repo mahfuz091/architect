@@ -105,7 +105,7 @@ body {
 
 }
 
-.hero-link {}
+
 
 .quick-feature {
     padding: 85px 300px;
@@ -283,13 +283,11 @@ body {
     justify-content: space-between;
     padding-bottom: 130px;
 }
-.logo{
- 
-}
+
 
 .footer .wrapper{
     background: #FFF4E7;
-border-radius: 8px;
+    border-radius: 8px;
 }
 .footer-text{
     font-weight: 400;
